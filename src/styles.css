@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+}
+
+.list-group {
+  max-height: 240px;
+  min-height: 240px;
+  margin-bottom: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.list-group-item {
+  text-align: right;
+  height: 48px;
+}
+
+.border {
+  border-color: #f8f9fa !important;
+}
+
+.ac {
+  color: red;
+}
+
+.c {
+  color: red;
+}
+
+::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+}
